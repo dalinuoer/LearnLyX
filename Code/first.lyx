@@ -5,18 +5,22 @@
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip = 0pt plus 1pt
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
-\language english
-\language_package default
-\inputencoding auto
+\language chinese-simplified
+\language_package auto
+\inputencoding utf8
 \fontencoding global
-\font_roman "default" "default"
-\font_sans "default" "default"
+\font_roman "default" "宋体"
+\font_sans "default" "宋体"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
 \font_default_family default
-\use_non_tex_fonts false
+\use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100 100
@@ -24,7 +28,7 @@
 \use_microtype false
 \use_dash_ligatures true
 \graphics default
-\default_output_format default
+\default_output_format pdf4
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -64,7 +68,7 @@
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style english
-\dynamic_quotes 0
+\dynamic_quotes 1
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -103,6 +107,10 @@ This is a margins note.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+中文显示的测试。
 \end_layout
 
 \begin_layout Section
@@ -166,10 +174,12 @@ Sections are bigger than subsections.
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Graphics
-	filename Snipaste_2021-03-27_21-06-39.png
+	filename OUC-logo.jpg
 	lyxscale 50
 	scale 30
+	rotateOrigin center
 
 \end_inset
 
