@@ -426,7 +426,7 @@ status open
 
 
 \backslash
-pgfdeclareimage[height=0.5cm]{institution-logo}{OUC-logo}
+pgfdeclareimage[height=0.5cm]{institution-logo}{ouc-logo}
 \end_layout
 
 \begin_layout Plain Layout
@@ -445,7 +445,7 @@ pgfuseimage{institution-logo}}
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 The following causes the table of contents to be shown at the beginning
